@@ -1,0 +1,41 @@
+Algoritma:
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+Pseudocode:
+While n ? 0 do
+  r ? m mod n
+  m ? n
+  n ? r
+return m
+
+algoritma:
+nilai kpk dari 3 dan 4=12 ,maka niai a=3 dan b=4,maka buat variabelnya adalah 0
+step 1 jika nilai int a=3 di kalikan ke int b=4
+step 2 bagi variabelnya dengan nilai b
+step 3 masukan nilai n ke a dan nilai r ke b.kembali ke step 1
+
+pseudocode:
+int FPB(int a, int b){
+int r = 0;
+
+    while(b!=0){
+        r = a % b;
+        a = b;
+        b = r;
+    }
+
+    return a;
+}
+
+
+
+
+Fungsi untuk menukar dua variabel x dan y:
+define swap(x, y)
+buffer = x
+x = y
+y = buffer
+
+
+

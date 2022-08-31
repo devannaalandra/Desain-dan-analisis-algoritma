@@ -1,0 +1,23 @@
+latihan:
+
+Ada 2 buah: manggis dan pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+Buatlah algoritma dan pseudocode untuk menukar manggis ke piring 2 dan pisang ke piring 1!
+
+algoritma:
+step 1 variabel a memiliki nilai 1 dan b memiliki nilai 2. dan piring 3
+memiliki nilai hasil tambah dari variabel a dan b yaitu menjadi 5, dan variabel b tetap memiliki nilai 2.  
+step 2 variabel b kita buat agar menyimpan hasil dari nilai variabel a dikurang variabel b, yaitu 5 – 3 = 2.sehingga piring 2 null
+step 3 masukan piring 1 ke piring 2 sehingga piring 1 null
+step 4 masukan piring 3 ke piring 1 sehingga piring 3 kosong
+ 
+
+pseudecode
+define swap (piring 1,piring2)
+piring 1= manggis
+piring 2= pisang
+
+piring3 = piring2
+piring2 = piring1
+piring1 = piring3
+
+

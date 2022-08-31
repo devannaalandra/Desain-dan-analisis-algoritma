@@ -1,0 +1,33 @@
+fundamental dari pemecahan masalah algoritma:
+step 1 mendeklarasikan luas,alas,dan tinggi
+step 2 masukan alas = 25,tinggi = 30
+step 3 menghitung luas = 1/2*alas*tinggi
+step 4 menampilkan luas
+
+pseudocode:
+deklarasi
+var luas,alas,tinggi
+alas <- 25
+tinggi <-30
+luas 1/2*alas*tinggi
+write(luas)
+
+latihan
+Tentukan algoritma dan pseudocode luas jajar genjang (panjang = 5, lebar = 3) !
+algoritma:
+step 1 mendeklarasikan volume,phi,jari jari,dan tinggi
+step 2 masukkan nilai phi= 3,14 jari jari = 3 dan tinggi =5
+step 3 pangkatkan jari jari dengan 2 
+step 4 menghitung volume = phi*jari jari*tinggi
+step 5 menampilkan hasil dari volume tabung
+
+pseudecode
+
+deklarasi 
+var volume,phi,jari-jari,dan tinggi
+
+phi <- 3,14
+jari-jari <- jari jari**
+tinggi <- 5
+volume = phi * jari-jari*tinggi
+write(volume)
